@@ -1,0 +1,70 @@
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Merriweather', serif;
+  font-size: 3.5rem;
+  padding-top: 3%;
+}
+
+p {
+  padding-bottom: 2%;
+}
+
+.container-title{
+  padding-bottom: 2%;
+}
+
+.container-fluid{
+  padding:5% 15%;
+  text-align: center;
+}
+
+.help-header {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3.0rem;
+  line-height: 1.5;
+}
+
+.blue-section{
+  background-color: #08B0DD;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+  color: #000;
+}
+
+.welcome-section {
+  height: 400px;
+  width: 100%;
+}
+
+
+nav {
+  height: 60px;
+  width: 100%;
+}
+
+.navbar-nav a{
+  color:#fff;
+  font-size: 1.5em;
+}
+
+.navbar-nav > li {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.div-border{
+  padding: 5%
+}
+
+.div-img{
+  background: url("images/pool-07.jpg");
+}
