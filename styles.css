@@ -14,21 +14,33 @@ p {
   padding-bottom: 2%;
 }
 
-.container-title{
-  padding-bottom: 2%;
-}
-
-.container-fluid{
-  padding:5% 15%;
-  text-align: center;
-}
-
+/* Headings */
 .help-header {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
-  font-size: 3.0rem;
+  font-size: 3.5rem;
   line-height: 1.5;
+  padding-bottom: 5%;
 }
+
+
+/* Containers */
+
+
+
+.container-titleLogo{
+padding-bottom: 2%;
+text-align: right;
+}
+
+
+.container-fluid{
+  padding:2% 15%;
+  text-align: center;
+}
+
+
+/* Sections */
 
 .blue-section{
   background-color: #08B0DD;
@@ -46,8 +58,46 @@ p {
 }
 
 
-nav {
-  height: 60px;
+
+/* Title Section */
+
+.col-4{
+  padding-bottom: 2%;
+  text-align: right;
+}
+
+
+.col-8{
+padding-left: 0px;
+}
+
+.logo {
+  height: auto;
+  width: 60px;
+  padding-top: 8%;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.titleText{
+  color: #08B0DD;
+  margin: 0;
+  padding-bottom: 2%;
+  padding-left: 0px;
+  position: relative;
+  text-align: left;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+
+/* Nav Section */
+
+/* nav {
+  height: 40px;
   width: 100%;
 }
 
@@ -55,11 +105,31 @@ nav {
   color:#fff;
   font-size: 1.5em;
 }
-
+*/
 .navbar-nav > li {
   padding-left: 40px;
   padding-right: 40px;
 }
+
+
+
+/* Features Section */
+
+
+.features-img {
+  border-radius: 100%;
+  height:180px;
+  margin: 20px;
+  width: 270px;
+}
+
+.feature-box{
+  padding-top: 4%;
+}
+
+
+
+/* Help Section */
 
 .div-border{
   padding: 5%
@@ -67,4 +137,8 @@ nav {
 
 .div-img{
   background: url("images/pool-07.jpg");
+}
+
+.pricing-column{
+  padding-bottom: 3%;
 }
