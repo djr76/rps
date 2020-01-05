@@ -1,0 +1,27 @@
+<%- include("header")-%>
+
+<div class="container">
+  <h2>Service Calls</h2>
+  <form class="openCloseForm">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <button type="button" name="button" data-toggle="modal" data-target="#serviceModal" class="openCloseBtn btn btn-light">Request Service</button>
+          <p><b>Rate: $100 first hour / $45 per additional 30 minutes.</b></p>
+          <ul>
+            <li>Parts, chemicals, and material are an additional charge.</li>
+            <li>If extra tech is needed it is an additional $30 per hour.</li>
+            <li>We request the customer to ba available at time of service for payment.</li>
+            <li>Any major repairs or tasks may be rescheduled at a later date.</li>
+            <li>Credit card is required if customer is not availble during service.</li>
+          </ul>
+        </div>
+        <div class="col-lg-8">
+          <img class="service-image" src="images/service.jpg" alt="">
+        </div>
+
+      </div>
+  </form>
+</div>
+
+<%- include("footer")-%>

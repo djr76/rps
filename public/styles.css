@@ -1,0 +1,225 @@
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+h1{
+  font-family: 'Merriweather', serif;
+  font-size: 3.5rem;
+  padding-top: 3%;
+}
+
+h2{
+  font-family: 'Merriweather', serif;
+  font-size: 2.5rem;
+  padding-top: 3%;
+}
+
+h3{
+  font-size: 1.65rem;
+}
+
+
+p {
+  padding-bottom: 2%;
+}
+
+hr {
+  border-width: 2px;
+}
+
+.jumbotron{
+  margin-top: 25px;
+}
+
+/* Open/Close ejs */
+/* .openCloseH1{
+font-family: 'Merriweather', serif;
+font-size: 3.5rem;
+padding-top: 3%;
+padding-left: 5%;
+text-align: center;
+} */
+
+.openCloseForm{
+  background-color: #08B0DD;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 80px;
+  padding: 5%;
+  text-align: left;
+}
+
+.openCloseBtn{
+  margin-bottom: 3%;
+}
+
+/* contact ejs */
+.contact-img {
+  border-radius: 100%;
+  height: 90%;
+  /* margin: 20px; */
+  width: 90%;
+}
+
+/* Headings */
+.help-header {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  padding-bottom: 5%;
+}
+
+
+/* Containers */
+
+.container-titleLogo{
+padding-bottom: 2%;
+text-align: right;
+}
+
+
+.container-fluid{
+  padding:2% 15%;
+  text-align: center;
+}
+
+
+/* General Sections */
+
+.blue-section{
+  background-color: #08B0DD;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+  color: #000;
+}
+
+.welcome-section {
+  height: 400px;
+  width: 100%;
+}
+
+
+
+/* Title Section */
+
+.col-4{
+  padding-bottom: 2%;
+  text-align: right;
+}
+
+
+.col-8{
+padding-left: 0px;
+text-align: left;
+}
+
+.logo {
+  height: auto;
+  padding-top: 8%;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 60px;
+}
+
+.titleText{
+  color: #08B0DD;
+  margin: 0;
+  padding-bottom: 2%;
+  padding-left: 0px;
+  position: relative;
+  text-align: left;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
+
+/* Nav Section */
+
+.navbar-nav > li {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.nav-container{
+  margin-bottom: 40px;
+}
+
+
+
+/* Features Section */
+
+.features-img {
+  border-radius: 100%;
+  height: 60%;
+  margin: 20px;
+  width: 80%;
+}
+
+.feature-box{
+  padding-top: 4%;
+}
+
+
+
+/* Help Section */
+
+.div-border{
+  padding: 5%
+}
+
+.div-img{
+  background-image: url("images/pool-07.jpg");
+}
+
+.pricing-column{
+  padding-bottom: 3%;
+}
+
+.containerContact{
+  padding: 0% 20%;
+}
+
+.service-image{
+  height: 90%;
+  margin: 20px;
+  width: 100%;
+}
+.oc-image{
+  height: 80%;
+  width:80%;
+}
+
+/* Press Logos Section */
+
+.press-logo{
+  width: 10%;
+  height: 30%;
+  margin: 40px 40px 40px;
+}
+
+/* Footer */
+
+.bottom-container {
+  font-size: 30px;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.copyright {
+  font-size: 20px;
+  padding: 20px;
+}
+
+/* @media (max-width: 1028px) {
+} */
